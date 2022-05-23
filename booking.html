@@ -85,10 +85,11 @@
                         <a href="index.html" class="nav-item nav-link ">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="blog.html" class="dropdown-item">Blog </a>
+                        <a href="blog.html" class="nav-item nav-link active">Appointment</a>
+                        <a href="blog.html" class="nav-item nav-link ">Blog </a>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="feature.html" class="dropdown-item">Our features</a>
                                 <a href="team.html" class="dropdown-item">Team Members</a>
@@ -134,10 +135,10 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Booking &rarr;</h5>
-                <h1 class="mb-0">Feel To Book An Appointment</h1>
+                <h1 class="mb-0">Feel Free To Book An Appointment</h1>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                     <form>
                         <div class="row g-3">
@@ -145,13 +146,13 @@
                                 <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                <input type="number" class="form-control bg-light border-0" placeholder="Your mobile No" style="height: 55px;">
                             </div>
-                            <div class="input-group date" data-provide="datepicker">
-                                <input type="text" class="form-control">
-                                <div class="input-group-addon">
-                                    <span class="glyphicon glyphicon-th"></span>
-                                </div>
+                            <div class="col-12">
+                            <input type="date" class="form-control bg-light border-0" name="dday" id="dday">
+                            </div>
+                            <div class="col-12">
+                            <input type="time" class="form-control bg-light border-0" name="tday" id="tday">
                             </div>
                             <div class="col-12">
                                 <select class="form-select bg-light border-0" style="height: 55px;">
@@ -176,13 +177,15 @@
                                 <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-dark w-100 py-3" type="submit">Request A Service</button>
+                                <button class="btn btn-dark w-100 py-3" type="submit">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            
+            <div class="col-lg-7">
+                <img src="img/appointment-book.jpg" class="img-fluid" alt="book appointment">
+            </div>
         </div>
     </div>
     <!-- Testimonial End -->
